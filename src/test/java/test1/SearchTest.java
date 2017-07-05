@@ -37,8 +37,9 @@ public class SearchTest {
     @Test
     public void searchTest(){
         String title = driver.getTitle();
+        LogUtil.log("Title Fetched: "+title);
         assertEquals(title,"Google");
-        LogUtil.log("Page loaded.");
+        LogUtil.log("Test Passed. Expected: Google | Actual: "+title);
         System.out.println("Page Loaded");
     }
 
