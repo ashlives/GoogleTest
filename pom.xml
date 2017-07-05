@@ -85,7 +85,8 @@
     </plugins>
     </build>
 
-    <reporting>
+
+    <!--<reporting>
     <excludeDefaults>true</excludeDefaults>
     <plugins>
         <plugin>
@@ -94,5 +95,5 @@
             <version>${allure.version}</version>
         </plugin>
     </plugins>
-    </reporting>
+    </reporting>-->
 </project>
