@@ -9,12 +9,17 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.Assert.*;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.Allure;
+import ru.yandex.qatools.allure.annotations.Description;
+import ru.yandex.qatools.allure.annotations.Title;
+
 import static org.testng.Assert.assertEquals;
 
 
 /**
  * Created by Ashish on 28-05-2017.
  */
+
 public class SearchTest {
     WebDriver driver;
     WebDriverWait wait;
@@ -27,6 +32,8 @@ public class SearchTest {
         wait = new WebDriverWait(driver,50);
     }
 
+    @Title("Title check")
+    @Description("Checking the title of the loaded page.")
     @Test
     public void searchTest(){
         String title = driver.getTitle();
