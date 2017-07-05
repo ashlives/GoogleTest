@@ -38,6 +38,7 @@ public class SearchTest {
     public void searchTest(){
         String title = driver.getTitle();
         assertEquals(title,"Google");
+        LogUtil.log("Page loaded.");
         System.out.println("Page Loaded");
     }
 
