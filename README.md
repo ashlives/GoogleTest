@@ -1,12 +1,13 @@
 # About Project
 This is just a sample project for testing allure report integration.
 
-#Framework
+# Framework
 * TestNG
 * Selenium
 * Maven
 * Git
 * Allure Reports
+* Jenkins (Allure reports are only viewable as the artifacts)
 
 # Configuring allure report in maven
 ## Repository
