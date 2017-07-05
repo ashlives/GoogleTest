@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+    <test name="Test1   ">
+        <classes><class name="test1.SearchTest">
+            <parameter name="TestCaseId" value="TC1" />
+            <methods><include name="searchTest"/></methods>
+        </class>
+        </classes>
+    </test>
+</suite>
